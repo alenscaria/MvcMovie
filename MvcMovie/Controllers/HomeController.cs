@@ -12,14 +12,14 @@ namespace MvcMovie.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "MovieHub: Your Ultimate Cinema Companion";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "For more details contact :";
 
             return View();
         }
